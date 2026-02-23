@@ -1,0 +1,15 @@
+[book]
+authors = ["Agentropic"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Agentropic Documentation"
+description = "Documentation for the Agentropic multi-agent framework"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/agentropic/agentropic-docs"
