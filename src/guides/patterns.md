@@ -76,4 +76,4 @@ Most patterns follow a similar lifecycle:
 
 ## When Not to Use Patterns
 
-If you have a single agent doing a single task, you don't need organizational patterns. Start with `agentropic-core` alone and add patterns when you have multiple agents that need coordination.
+If you have a single agent doing a single task, you don't need organizational patterns. Start with `z-core` alone and add patterns when you have multiple agents that need coordination.
