@@ -1,4 +1,4 @@
-# agentropic-patterns
+# z-patterns
 
 Eight organizational patterns for structuring multi-agent systems.
 
