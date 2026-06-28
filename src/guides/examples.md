@@ -1,11 +1,11 @@
 # Examples Overview
 
-The [agentropic-examples](https://github.com/agentropic/agentropic-examples) crate contains 8 runnable examples that demonstrate every part of the framework.
+The [z-examples](https://github.com/zeroicai/z-examples) crate contains 8 runnable examples that demonstrate every part of the framework.
 
 ## Running Examples
 ```bash
-git clone https://github.com/agentropic/agentropic-examples
-cd agentropic-examples
+git clone https://github.com/zeroicai/z-examples
+cd z-examples
 cargo run --example hello_agent
 ```
 
