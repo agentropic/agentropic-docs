@@ -1,6 +1,6 @@
-# agentropic-docs
+# z-docs
 
-Documentation for the [Agentropic](https://github.com/agentropic/agentropic) multi-agent framework.
+Documentation for the [ZeroicAI](https://github.com/zeroicai/zeroicai) multi-agent framework.
 
 ## Building
 

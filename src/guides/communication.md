@@ -6,8 +6,8 @@ This guide covers connecting agents through the messaging system.
 
 Every messaging scenario needs three things: agents, a router, and messages.
 ```rust
-use agentropic_core::prelude::*;
-use agentropic_messaging::prelude::*;
+use z_core::prelude::*;
+use z_messaging::prelude::*;
 
 // 1. Create agents (anything with an AgentId)
 let alice_id = AgentId::new();

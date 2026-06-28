@@ -13,7 +13,7 @@ cd hello-agent
 Edit `Cargo.toml`:
 ```toml
 [dependencies]
-agentropic-core = { git = "https://github.com/agentropic/agentropic-core", branch = "main" }
+z-core = { git = "https://github.com/zeroicai/z-core", branch = "main" }
 async-trait = "0.1"
 tokio = { version = "1.0", features = ["full"] }
 ```
@@ -22,7 +22,7 @@ tokio = { version = "1.0", features = ["full"] }
 
 Replace `src/main.rs`:
 ```rust
-use agentropic_core::prelude::*;
+use z_core::prelude::*;
 
 struct CounterAgent {
     id: AgentId,

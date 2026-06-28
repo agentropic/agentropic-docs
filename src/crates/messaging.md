@@ -1,4 +1,4 @@
-# agentropic-messaging
+# z-messaging
 
 Agent communication through routed messages with FIPA performatives.
 
@@ -96,6 +96,6 @@ FIPA-compliant speech acts describing message intent:
 
 ## Prelude
 ```rust
-use agentropic_messaging::prelude::*;
+use z_messaging::prelude::*;
 // Gives you: Message, MessageId, MessageBuilder, Router, Performative, AgentId
 ```

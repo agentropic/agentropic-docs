@@ -10,11 +10,11 @@
 
 # Core Crates
 
-- [agentropic-core](./crates/core.md)
-- [agentropic-messaging](./crates/messaging.md)
-- [agentropic-cognition](./crates/cognition.md)
-- [agentropic-patterns](./crates/patterns.md)
-- [agentropic-runtime](./crates/runtime.md)
+- [z-core](./crates/core.md)
+- [z-messaging](./crates/messaging.md)
+- [z-cognition](./crates/cognition.md)
+- [z-patterns](./crates/patterns.md)
+- [z-runtime](./crates/runtime.md)
 
 # Guides
 

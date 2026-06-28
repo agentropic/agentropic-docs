@@ -5,7 +5,7 @@
 - [Rust](https://rustup.rs/) 1.70 or later
 - Cargo (included with Rust)
 
-## Adding Agentropic to Your Project
+## Adding ZeroicAI to Your Project
 
 Create a new project:
 ```bash
@@ -18,7 +18,7 @@ cd my-agent-system
 Add to your `Cargo.toml`:
 ```toml
 [dependencies]
-agentropic = { git = "https://github.com/agentropic/agentropic", branch = "main" }
+zeroicai = { git = "https://github.com/zeroicai/zeroicai", branch = "main" }
 async-trait = "0.1"
 tokio = { version = "1.0", features = ["full"] }
 ```
@@ -29,19 +29,19 @@ Use only what you need:
 ```toml
 [dependencies]
 # Required — agent trait, identity, lifecycle
-agentropic-core = { git = "https://github.com/agentropic/agentropic-core", branch = "main" }
+z-core = { git = "https://github.com/zeroicai/z-core", branch = "main" }
 
 # Optional — message passing between agents
-agentropic-messaging = { git = "https://github.com/agentropic/agentropic-messaging", branch = "main" }
+z-messaging = { git = "https://github.com/zeroicai/z-messaging", branch = "main" }
 
 # Optional — BDI reasoning, planning, utility functions
-agentropic-cognition = { git = "https://github.com/agentropic/agentropic-cognition", branch = "main" }
+z-cognition = { git = "https://github.com/zeroicai/z-cognition", branch = "main" }
 
 # Optional — organizational patterns (hierarchy, swarm, market, etc.)
-agentropic-patterns = { git = "https://github.com/agentropic/agentropic-patterns", branch = "main" }
+z-patterns = { git = "https://github.com/zeroicai/z-patterns", branch = "main" }
 
 # Optional — scheduling, supervision, metrics
-agentropic-runtime = { git = "https://github.com/agentropic/agentropic-runtime", branch = "main" }
+z-runtime = { git = "https://github.com/zeroicai/z-runtime", branch = "main" }
 
 async-trait = "0.1"
 tokio = { version = "1.0", features = ["full"] }
