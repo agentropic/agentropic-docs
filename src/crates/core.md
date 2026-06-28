@@ -1,4 +1,4 @@
-# agentropic-core
+# z-core
 
 The foundation crate. Defines the `Agent` trait, identity, lifecycle states, context, and error types.
 
@@ -88,6 +88,6 @@ pub enum AgentError {
 
 Import everything you need:
 ```rust
-use agentropic_core::prelude::*;
+use z_core::prelude::*;
 // Gives you: Agent, AgentId, AgentContext, AgentState, AgentResult, async_trait
 ```
