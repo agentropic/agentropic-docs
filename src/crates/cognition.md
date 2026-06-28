@@ -1,4 +1,4 @@
-# agentropic-cognition
+# z-cognition
 
 Cognitive architecture for intelligent agents — BDI, planning, reasoning, and utility-based decision making.
 
@@ -97,7 +97,7 @@ engine.infer(&beliefs);
 
 ## Module Structure
 ```
-agentropic-cognition
+z-cognition
 ├── bdi        (BDIAgent, Belief, BeliefBase, Desire, Goal, Intention, IntentionStack)
 ├── planning   (Action, Plan, Planner, State)
 ├── reasoning  (ReasoningEngine, Rule)
