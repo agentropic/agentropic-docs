@@ -1,10 +1,10 @@
 [book]
-authors = ["Agentropic"]
+authors = ["ZeroicAI"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Agentropic Documentation"
-description = "Documentation for the Agentropic multi-agent framework"
+title = "ZeroicAI Documentation"
+description = "Documentation for the ZeroicAI multi-agent framework"
 
 [build]
 build-dir = "book"
@@ -12,4 +12,4 @@ build-dir = "book"
 [output.html]
 default-theme = "navy"
 preferred-dark-theme = "navy"
-git-repository-url = "https://github.com/agentropic/agentropic-docs"
+git-repository-url = "https://github.com/ZeroicAI/z-docs"
