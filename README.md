@@ -1,6 +1,6 @@
-# z-docs
+# docs
 
-Documentation for the [ZeroicAI](https://github.com/zeroicai/zeroicai) multi-agent framework.
+Documentation for the [RustyAI](https://github.com/rustyai/rustyai) multi-agent framework.
 
 ## Building
 
@@ -23,7 +23,7 @@ src/
 │   ├── quickstart.md
 │   └── architecture.md
 ├── crates/
-│   ├── core.md
+│   ├── agent-core.md
 │   ├── messaging.md
 │   ├── cognition.md
 │   ├── patterns.md
