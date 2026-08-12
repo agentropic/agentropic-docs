@@ -1,6 +1,6 @@
 # Glossary
 
-**Agent** — An autonomous entity that perceives its environment, reasons about it, and acts. In ZeroicAI, anything implementing the `Agent` trait.
+**Agent** — An autonomous entity that perceives its environment, reasons about it, and acts. In RustyAI, anything implementing the `Agent` trait.
 
 **AgentId** — A UUID-based unique identifier assigned to every agent at creation.
 
@@ -18,7 +18,7 @@
 
 **Federation** — A governance pattern where agents have weighted votes and decisions follow defined policies.
 
-**FIPA** — Foundation for Intelligent Physical Agents. An IEEE standard for agent communication. ZeroicAI implements FIPA performatives.
+**FIPA** — Foundation for Intelligent Physical Agents. An IEEE standard for agent communication. RustyAI implements FIPA performatives.
 
 **Flocking** — Swarm behavior based on Reynolds' Boids: separation, alignment, and cohesion.
 
