@@ -1,11 +1,11 @@
 # Examples Overview
 
-The [z-examples](https://github.com/zeroicai/z-examples) crate contains 8 runnable examples that demonstrate every part of the framework.
+The [examples](https://github.com/rustyai/examples) crate contains 8 runnable examples that demonstrate every part of the framework.
 
 ## Running Examples
 ```bash
-git clone https://github.com/zeroicai/z-examples
-cd z-examples
+git clone https://github.com/rustyai/examples
+cd examples
 cargo run --example hello_agent
 ```
 
@@ -13,13 +13,13 @@ cargo run --example hello_agent
 
 ### hello_agent
 
-**Crates:** core
+**Crates:** agent-core
 
 Simplest possible agent. Creates an agent, runs it through the full lifecycle (initialize → execute → shutdown), and demonstrates state transitions.
 
 ### messaging
 
-**Crates:** core, messaging
+**Crates:** agent-core, messaging
 
 Two agents communicate through a router. Alice sends a request to Bob, Bob replies with results, Alice confirms. Shows `Message`, `MessageBuilder`, `Router`, and `Performative`.
 
@@ -31,25 +31,25 @@ Four utility functions (aggressive, conservative, balanced, fallback) evaluate d
 
 ### market_auction
 
-**Crates:** core, patterns
+**Crates:** agent-core, patterns
 
 Agents bid on compute resources through English and sealed-bid auctions. Shows `Market`, `Auction`, `Bid`, reserve prices, winner selection, and resource allocation.
 
 ### swarm_consensus
 
-**Crates:** core, patterns
+**Crates:** agent-core, patterns
 
 Ten drone agents form a swarm with flocking and foraging behaviors, then vote on a target using consensus. Demonstrates `Swarm`, `Flocking`, `Foraging`, `Behavior`, and `Consensus`.
 
 ### hierarchy_delegation
 
-**Crates:** core, patterns
+**Crates:** agent-core, patterns
 
 Builds a corporate hierarchy (Executive → Management → Operations), assigns agents to levels, delegates tasks down the chain, and organizes a team with roles and responsibilities.
 
 ### supervised_agents
 
-**Crates:** core, runtime
+**Crates:** agent-core, runtime
 
 Three workers run under a supervisor with different restart policies. Demonstrates health checks, circuit breaker state transitions, exponential backoff, metrics collection with JSON export, and task queue processing.
 

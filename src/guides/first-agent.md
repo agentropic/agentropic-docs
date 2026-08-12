@@ -11,7 +11,7 @@ Every agent must implement four things:
 3. **`execute()`** — do work
 4. **`shutdown()`** — clean up
 ```rust
-use z_core::prelude::*;
+use agent_core::prelude::*;
 
 struct TemperatureMonitor {
     id: AgentId,

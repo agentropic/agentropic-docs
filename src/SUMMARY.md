@@ -10,11 +10,11 @@
 
 # Core Crates
 
-- [z-core](./crates/core.md)
-- [z-messaging](./crates/messaging.md)
-- [z-cognition](./crates/cognition.md)
-- [z-patterns](./crates/patterns.md)
-- [z-runtime](./crates/runtime.md)
+- [agent-core](./crates/agent-core.md)
+- [messaging](./crates/messaging.md)
+- [cognition](./crates/cognition.md)
+- [patterns](./crates/patterns.md)
+- [runtime](./crates/runtime.md)
 
 # Guides
 

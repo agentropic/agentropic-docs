@@ -1,4 +1,4 @@
-# z-patterns
+# patterns
 
 Eight organizational patterns for structuring multi-agent systems.
 

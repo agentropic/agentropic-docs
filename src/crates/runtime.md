@@ -1,4 +1,4 @@
-# z-runtime
+# runtime
 
 Production execution environment — scheduling, supervision, fault tolerance, and observability.
 

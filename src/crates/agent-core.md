@@ -1,4 +1,4 @@
-# z-core
+# agent-core
 
 The foundation crate. Defines the `Agent` trait, identity, lifecycle states, context, and error types.
 
@@ -88,6 +88,6 @@ pub enum AgentError {
 
 Import everything you need:
 ```rust
-use z_core::prelude::*;
+use agent_core::prelude::*;
 // Gives you: Agent, AgentId, AgentContext, AgentState, AgentResult, async_trait
 ```
