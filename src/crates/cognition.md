@@ -1,4 +1,4 @@
-# z-cognition
+# cognition
 
 Cognitive architecture for intelligent agents — BDI, planning, reasoning, and utility-based decision making.
 
@@ -97,7 +97,7 @@ engine.infer(&beliefs);
 
 ## Module Structure
 ```
-z-cognition
+cognition
 ├── bdi        (BDIAgent, Belief, BeliefBase, Desire, Goal, Intention, IntentionStack)
 ├── planning   (Action, Plan, Planner, State)
 ├── reasoning  (ReasoningEngine, Rule)
