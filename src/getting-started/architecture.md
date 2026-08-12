@@ -1,22 +1,22 @@
 # Architecture
 
-ZeroicAI is built as five composable crates, each handling a distinct concern.
+RustyAI is built as five composable crates, each handling a distinct concern.
 
 ## Dependency Graph
 ```
-z-runtime
-    ├── z-patterns
-    │       ├── z-cognition
-    │       │       └── z-core
-    │       ├── z-messaging
-    │       │       └── z-core
-    │       └── z-core
-    └── z-core
+runtime
+    ├── patterns
+    │       ├── cognition
+    │       │       └── agent-core
+    │       ├── messaging
+    │       │       └── agent-core
+    │       └── agent-core
+    └── agent-core
 ```
 
 ## Layer Model
 
-### Layer 1: Core (`z-core`)
+### Layer 1: Core (`agent-core`)
 
 The foundation. Defines what an agent *is*:
 
@@ -26,9 +26,9 @@ The foundation. Defines what an agent *is*:
 - **`AgentState`** — lifecycle state machine (Created → Initialized → Running → Paused → Stopped)
 - **`AgentError`** — typed error handling
 
-Every other crate depends on core. If you're building anything with ZeroicAI, you need this.
+Every other crate depends on agent-core. If you're building anything with RustyAI, you need this.
 
-### Layer 2: Communication (`z-messaging`)
+### Layer 2: Communication (`messaging`)
 
 How agents talk to each other:
 
@@ -37,7 +37,7 @@ How agents talk to each other:
 - **`Performative`** — FIPA speech acts (Inform, Request, Propose, Accept, Reject, etc.)
 - **`MessageBuilder`** — fluent API for constructing messages
 
-### Layer 3: Intelligence (`z-cognition`)
+### Layer 3: Intelligence (`cognition`)
 
 How agents think:
 
@@ -47,7 +47,7 @@ How agents think:
 - **`ReasoningEngine`** — rule-based inference
 - **`UtilityFunction`** — numerical strategy evaluation
 
-### Layer 4: Organization (`z-patterns`)
+### Layer 4: Organization (`patterns`)
 
 How agents organize:
 
@@ -62,7 +62,7 @@ How agents organize:
 | **Holarchy** | Nested autonomous units (holons) |
 | **Blackboard** | Shared knowledge space with expert knowledge sources |
 
-### Layer 5: Execution (`z-runtime`)
+### Layer 5: Execution (`runtime`)
 
 How agents run in production:
 
