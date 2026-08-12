@@ -1,10 +1,10 @@
 [book]
-authors = ["ZeroicAI"]
+authors = ["RustyAI"]
 language = "en"
 multilingual = false
 src = "src"
-title = "ZeroicAI Documentation"
-description = "Documentation for the ZeroicAI multi-agent framework"
+title = "RustyAI Documentation"
+description = "Documentation for the RustyAI multi-agent framework"
 
 [build]
 build-dir = "book"
@@ -12,4 +12,4 @@ build-dir = "book"
 [output.html]
 default-theme = "navy"
 preferred-dark-theme = "navy"
-git-repository-url = "https://github.com/ZeroicAI/z-docs"
+git-repository-url = "https://github.com/RustyAI/docs"
