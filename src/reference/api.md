@@ -6,7 +6,7 @@ Full API documentation is generated from source code using `cargo doc`.
 
 From the workspace root:
 ```bash
-cd ~/Desktop/zeroicai
+cd ~/Desktop/rustyai
 cargo doc --no-deps --open
 ```
 
@@ -16,32 +16,32 @@ This opens HTML documentation for all crates in your browser.
 
 | Crate | Docs |
 |-------|------|
-| `z-core` | `cargo doc -p z-core --open` |
-| `z-messaging` | `cargo doc -p z-messaging --open` |
-| `z-cognition` | `cargo doc -p z-cognition --open` |
-| `z-patterns` | `cargo doc -p z-patterns --open` |
-| `z-runtime` | `cargo doc -p z-runtime --open` |
+| `agent-core` | `cargo doc -p agent-core --open` |
+| `messaging` | `cargo doc -p messaging --open` |
+| `cognition` | `cargo doc -p cognition --open` |
+| `patterns` | `cargo doc -p patterns --open` |
+| `runtime` | `cargo doc -p runtime --open` |
 
 ## Key Entry Points
 
-### z-core
+### agent-core
 
-- `z_core::prelude::*` — Agent, AgentId, AgentContext, AgentState, AgentResult
+- `agent_core::prelude::*` — Agent, AgentId, AgentContext, AgentState, AgentResult
 
-### z-messaging
+### messaging
 
-- `z_messaging::prelude::*` — Message, MessageBuilder, Router, Performative
+- `messaging::prelude::*` — Message, MessageBuilder, Router, Performative
 
-### z-cognition
+### cognition
 
-- `z_cognition::prelude::*` — BDIAgent, BeliefBase, ReasoningEngine, UtilityFunction, State
-- `z_cognition::UtilityFunction` — direct import
+- `cognition::prelude::*` — BDIAgent, BeliefBase, ReasoningEngine, UtilityFunction, State
+- `cognition::UtilityFunction` — direct import
 
-### z-patterns
+### patterns
 
-- `z_patterns::prelude::*` — all pattern types
+- `patterns::prelude::*` — all pattern types
 - Individual modules: `hierarchy`, `swarm`, `coalition`, `market`, `federation`, `team`, `holarchy`, `blackboard`
 
-### z-runtime
+### runtime
 
-- `z_runtime::prelude::*` — Supervisor, Scheduler, CircuitBreaker, MetricsRegistry
+- `runtime::prelude::*` — Supervisor, Scheduler, CircuitBreaker, MetricsRegistry
