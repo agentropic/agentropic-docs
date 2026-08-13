@@ -1,6 +1,6 @@
 # docs
 
-Documentation for the [RustyAI](https://github.com/rustyai/rustyai) multi-agent framework.
+Documentation for the [RustyAI](https://github.com/RustyAIFW/rustyai) multi-agent framework.
 
 ## Building
 
