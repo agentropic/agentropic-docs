@@ -13,7 +13,7 @@ cd hello-agent
 Edit `Cargo.toml`:
 ```toml
 [dependencies]
-agent-core = { git = "https://github.com/rustyai/agent-core", branch = "main" }
+agent-core = { git = "https://github.com/RustyAIFW/agent-core", branch = "main" }
 async-trait = "0.1"
 tokio = { version = "1.0", features = ["full"] }
 ```

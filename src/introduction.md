@@ -55,6 +55,6 @@ impl Agent for MyAgent {
 
 ## Project Links
 
-- [GitHub Organization](https://github.com/rustyai)
-- [Examples](https://github.com/rustyai/examples)
-- [Website](https://rustyai.org)
+- [GitHub Organization](https://github.com/RustyAIFW)
+- [Examples](https://github.com/RustyAIFW/examples)
+- [Website](https://www.rustyaifw.xyz)

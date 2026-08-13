@@ -1,10 +1,10 @@
 # Examples Overview
 
-The [examples](https://github.com/rustyai/examples) crate contains 8 runnable examples that demonstrate every part of the framework.
+The [examples](https://github.com/RustyAIFW/examples) crate contains 8 runnable examples that demonstrate every part of the framework.
 
 ## Running Examples
 ```bash
-git clone https://github.com/rustyai/examples
+git clone https://github.com/RustyAIFW/examples
 cd examples
 cargo run --example hello_agent
 ```
